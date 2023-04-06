@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Control_1
 {
-    class Exam
+    class Exam : IComparable, IComparer<Exam>
     {
         public string disc { get; set; }
         public int grade { get; set; }
@@ -32,7 +32,22 @@ namespace Control_1
             return "Discipline: " + disc + "\nGrade : " + grade + "\nDate :" + date.ToString("dd/MM/yyyy") + "\n";
         }
 
-       
+        public int CompareTo(object b)
+        {
+            Exam a = b as Exam;
+            return this.disc.CompareTo(a.disc);
+        }
+
+        public int Compare(Exam a, Exam b) => a.grade.CompareTo(b.grade);
 
     }
+
+    class ExamComparer : IComparer<Exam>
+    {
+        public int Compare(Exam a, Exam b) => a.date.CompareTo(b.date); 
+
+    }
+
+
+
 }
