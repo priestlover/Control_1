@@ -1,0 +1,15 @@
+C:\Users\roman\source\repos\Control_1\Control_1\bin\Debug\net6.0\Control_1.exe
+C:\Users\roman\source\repos\Control_1\Control_1\bin\Debug\net6.0\Control_1.deps.json
+C:\Users\roman\source\repos\Control_1\Control_1\bin\Debug\net6.0\Control_1.runtimeconfig.json
+C:\Users\roman\source\repos\Control_1\Control_1\bin\Debug\net6.0\Control_1.dll
+C:\Users\roman\source\repos\Control_1\Control_1\bin\Debug\net6.0\Control_1.pdb
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.csproj.AssemblyReference.cache
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.AssemblyInfoInputs.cache
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.AssemblyInfo.cs
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.csproj.CoreCompileInputs.cache
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.dll
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\refint\Control_1.dll
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.pdb
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\Control_1.genruntimeconfig.cache
+C:\Users\roman\source\repos\Control_1\Control_1\obj\Debug\net6.0\ref\Control_1.dll
