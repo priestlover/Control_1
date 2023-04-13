@@ -42,12 +42,14 @@ namespace Control_1
 
     }
 
-    class ExamComparer : IComparer<Exam>
+    class ExamComparerByDate : IComparer<Exam>
     {
         public int Compare(Exam a, Exam b) => a.date.CompareTo(b.date); 
-
     }
 
-
+    class ExamComparerByGrade : IComparer<Exam>
+    {
+        public int Compare(Exam a, Exam b) => a.grade.CompareTo(b.grade);
+    }
 
 }

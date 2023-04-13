@@ -48,6 +48,24 @@ namespace Control_1
         private Exam[] _exams;
         private int groupNumber;
 
+        public List<Test> tests;
+        public List<Exam> exams;
+
+        public void dateSort()
+        {
+            exams.Sort(new ExamComparerByDate());    
+        }
+
+        public void discSort()
+        {
+            exams.Sort(new Exam().Compare);   
+        }
+
+        public void gradeSort()
+        {
+            exams.Sort(new ExamComparerByGrade());
+        }
+
         public double average {
             get
             {
@@ -133,7 +151,6 @@ namespace Control_1
             return Person.ToString() + Education.ToString() +
                 "Group number : " + groupNumber + "\n" +
                 "Average grade : " + average + "\n\n";
-
         }
     }
 }
