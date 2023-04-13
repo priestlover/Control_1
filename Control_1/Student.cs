@@ -71,7 +71,7 @@ namespace Control_1
             {
                 double result = 0;
                 for (int i = 0; i < _exams.Length; i++)
-                    result = _exams[i].grade;
+                    result += _exams[i].grade;
                 return result/ _exams.Length;
             }
         }
@@ -114,6 +114,7 @@ namespace Control_1
             _education = education;
             _exams = exams;
             groupNumber = gNumber;
+            this.exams = exams.ToList();
         }
 
         public Student()
@@ -133,10 +134,13 @@ namespace Control_1
         private string PassedExams()
         {
             string result = "";
-            for(int i = 0; i < _exams.Length; i++)
+
+            foreach(var exam in exams)
             {
-                result += _exams[i].ToString();
+                result += exam;
             }
+
+
             return result;
         }
 

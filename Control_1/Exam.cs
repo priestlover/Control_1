@@ -38,7 +38,7 @@ namespace Control_1
             return this.disc.CompareTo(a.disc);
         }
 
-        public int Compare(Exam a, Exam b) => a.grade.CompareTo(b.grade);
+        public int Compare(Exam a, Exam b) => a.disc.CompareTo(b.disc);
 
     }
 
